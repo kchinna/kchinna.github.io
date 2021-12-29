@@ -46,10 +46,10 @@ export default class ProjectsGrid extends Component {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <ProjectCard
-                title="Pixel Recoloring"
-                summary="Detects black pixels within a certain threshold in an image and converts it into a user inputted color. GUI (built with Tkinter) allows for user to provide link to image and RGB values."
+                title="Complex-Calculator"
+                summary="The complex-calculator uses object oriented programming concepts to create a set of methods that allow the user to complete mathematical operations with complex numbers."
                 icon={<FaGithub className="github-icon" />}
-                url={"https://github.com/kchinna/recolor_black_pixels"}
+                url={"https://github.com/kchinna/complex-numbers"}
                 img={
                   "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
                 }

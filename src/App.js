@@ -14,7 +14,7 @@ function App() {
       <div class="title-page" id="home">
         <TextEditorCard
           title="[Kanishk Chinna]"
-          subtitle="//Aspiring Software Engineer"
+          subtitle="// Aspiring Software Engineer"
         />
       </div>
 
