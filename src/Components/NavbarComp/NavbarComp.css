@@ -1,0 +1,13 @@
+html {
+  --font-color: #e6e7e8;
+}
+
+.me-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  color: var(--font-color);
+}

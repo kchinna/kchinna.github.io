@@ -1,0 +1,26 @@
+html {
+  --btn-color: #e6e7e8;
+  --hover-color: #404041;
+}
+
+.btn {
+  border: 2px solid var(--btn-color);
+  border-radius: 8px;
+  padding: 20px;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  margin: 30px;
+  color: var(--btn-color);
+}
+
+.btn:hover {
+  border: 2px solid var(--hover-color);
+  color: var(--hover-color);
+  background-color: var(--btn-color);
+}
+
+.github-icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}

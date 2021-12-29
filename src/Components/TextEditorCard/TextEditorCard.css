@@ -1,0 +1,95 @@
+html {
+  --bg-color: #404041;
+  --top-bar-color: #e6e7e8;
+  --button-color1: #ff8f8f;
+  --button-color2: #5ec3af;
+  --button-color3: #ff0032af;
+  --font-color: #e6e7e8;
+}
+
+.title-card-container {
+  padding-top: 20vh;
+  padding-bottom: 50px;
+}
+
+.window {
+  margin: auto;
+  overflow: visible;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  height: 70vh;
+  display: flex;
+  width: 75%;
+}
+
+@media (max-width: 620px) {
+  .window {
+    width: 95%;
+  }
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8px;
+  color: white;
+  font-size: 30px;
+}
+
+.top-bar {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  margin-top: 0;
+  background-color: var(--top-bar-color);
+  border-radius: 7px 7px 0 0;
+}
+
+.buttons {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 12px;
+  background: var(--button-color1);
+  border-radius: 50%;
+  left: 22px;
+}
+
+.buttons::after,
+.buttons::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.buttons::after {
+  left: 12px;
+  background-color: var(--button-color2);
+}
+
+.buttons::before {
+  right: 12px;
+  background-color: var(--button-color3);
+}
+
+.main-title {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+  color: var(--font-color);
+}
+
+.subtitle {
+  font-size: 25px;
+  color: var(--font-color);
+}
