@@ -1,5 +1,6 @@
 html {
   --font-color: #e6e7e8;
+  --hov-color: #bebebe;
 }
 
 .me-auto {
@@ -10,4 +11,8 @@ html {
 
 .nav-item {
   color: var(--font-color);
+}
+
+.nav-item:hover {
+  color: var(--hov-color);
 }

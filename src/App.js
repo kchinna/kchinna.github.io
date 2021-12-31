@@ -18,13 +18,11 @@ function App() {
         />
       </div>
 
-      <h2 id="about-me">//about me</h2>
       <AboutComp />
 
-      <h2 id="projects">//projects</h2>
       <ProjectsGrid />
 
-      {/* <h2 id="resume">//resume</h2> */}
+      {/* <h2 id="resume">// resume</h2> */}
 
       <h2 id="contact"></h2>
       <Footer id="contact" />

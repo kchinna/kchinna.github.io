@@ -8,6 +8,7 @@ export default class ProjectsGrid extends Component {
   render() {
     return (
       <div class="project-page">
+        <h2>// projects</h2>
         <Container>
           <Row>
             <Col lg={3} md={6} sm={12}>

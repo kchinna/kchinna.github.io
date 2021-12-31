@@ -26,14 +26,14 @@ export default class ProjectCard extends Component {
             <FaInstagram className="icons" />
           </a>
           <a href="mailto:kanishkchinna@gmail.com" target="_blank">
-            <p className="text">
-              kanishkchinna@gmail.com <FaEnvelope className="icons" />
-            </p>
+            <div className="text-button">
+              kanishkchinna@gmail.com <FaEnvelope className="text-icons" />
+            </div>
           </a>
           <a href="src/Images/kchinnap-resume.pdf" target="_blank">
-            <p className="text">
-              View Resume <FaDownload className="icons" />
-            </p>
+            <div className="text-button">
+              View Resume <FaDownload className="text-icons" />
+            </div>
           </a>
         </div>
       </div>

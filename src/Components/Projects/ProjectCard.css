@@ -65,6 +65,8 @@ html {
 
 .proj-title {
   margin-top: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: var(--font-color);
 }
 
