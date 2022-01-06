@@ -10,9 +10,11 @@ export default class ExperienceCard extends Component {
             <div class="buttons"></div>
           </div>
           <h3 className="exp-title">{this.props.title}</h3>
-          <p className="duration">{this.props.duration1}</p>
-          <p className="duration">{this.props.duration2}</p>
-          <p className="summary">{this.props.summary}</p>
+          <p className="duration">{this.props.duration}</p>
+          <p className="summary">{this.props.summary1}</p>
+          <p className="summary">{this.props.summary2}</p>
+          <p className="summary">{this.props.summary3}</p>
+          <p className="summary">{this.props.summary4}</p>
         </div>
       </div>
     );

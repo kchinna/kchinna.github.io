@@ -14,6 +14,7 @@ html {
   border-radius: 8px;
   display: flex;
   margin-bottom: 20px;
+  color: var(--font-color);
 }
 
 .card-screen {
@@ -61,4 +62,23 @@ html {
 .buttons::before {
   right: 12px;
   background-color: var(--button-color3);
+}
+
+.exp-title {
+  margin-top: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--font-color);
+}
+
+.duration {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.summary {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }

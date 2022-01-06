@@ -6,7 +6,7 @@ html {
 }
 
 .footer-page {
-  height: 40vh;
+  height: 50vh;
   background-color: var(--nav-footer-color);
   display: flex;
   align-items: center;

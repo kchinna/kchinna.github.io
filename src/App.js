@@ -22,6 +22,7 @@ function App() {
       <AboutComp />
       <ProjectsGrid />
       <Skills />
+      <Experiences />
       <Footer />
     </div>
   );
