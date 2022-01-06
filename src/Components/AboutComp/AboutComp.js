@@ -7,7 +7,7 @@ export default class AboutComp extends Component {
   render() {
     return (
       <div id="about-me-page">
-        <h2>// about me</h2>
+        <h2># about me</h2>
         <div class="about-page-content">
           <Container className="about-grid">
             <Row>

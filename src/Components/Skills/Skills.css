@@ -1,0 +1,30 @@
+html {
+  --font-color: #e6e7e8;
+  --bg-color: #282c34;
+}
+
+.skills-page {
+  background-color: var(--bg-color);
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.skills-cont {
+  width: 70%;
+}
+
+.skills-list {
+  display: table;
+  margin-bottom: 0px;
+}
+
+.col {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 0px;
+  color: black;
+  margin-left: 50vw;
+}

@@ -6,7 +6,12 @@ export default class NavbarComp extends Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" bg="dark" expand="lg" variant="dark">
+        <Navbar
+          fixed="top"
+          expand="lg"
+          variant="dark"
+          className="navbar-complete"
+        >
           <Container>
             <Navbar.Brand href="#home">
               <span className="nav-item">Kanishk Chinna</span>

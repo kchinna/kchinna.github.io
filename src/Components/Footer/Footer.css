@@ -2,11 +2,12 @@ html {
   --font-color: #e6e7e8;
   --bg-color: #282c34;
   --hov-color: #bebebe;
+  --nav-footer-color: rgb(38, 37, 37);
 }
 
 .footer-page {
   height: 40vh;
-  background-color: var(--bg-color);
+  background-color: var(--nav-footer-color);
   display: flex;
   align-items: center;
   justify-content: center;

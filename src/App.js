@@ -5,6 +5,8 @@ import TextEditorCard from "./Components/TextEditorCard/TextEditorCard";
 import AboutComp from "./Components/AboutComp/AboutComp";
 import ProjectsGrid from "./Components/Projects/ProjectsGrid";
 import Footer from "./Components/Footer/Footer";
+import Skills from "./Components/Skills/Skills";
+import Experiences from "./Components/Experiences/Experiences";
 
 function App() {
   return (
@@ -13,19 +15,14 @@ function App() {
 
       <div class="title-page" id="home">
         <TextEditorCard
-          title="[Kanishk Chinna]"
-          subtitle="// Aspiring Software Engineer"
+          title="[ Kanishk Chinna ]"
+          subtitle="Aspiring Software Engineer"
         />
       </div>
-
       <AboutComp />
-
       <ProjectsGrid />
-
-      {/* <h2 id="resume">// resume</h2> */}
-
-      <h2 id="contact"></h2>
-      <Footer id="contact" />
+      <Skills />
+      <Footer />
     </div>
   );
 }

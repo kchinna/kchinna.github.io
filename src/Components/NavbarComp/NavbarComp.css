@@ -1,6 +1,11 @@
 html {
   --font-color: #e6e7e8;
   --hov-color: #bebebe;
+  --nav-footer-color: rgb(38, 37, 37);
+}
+
+.navbar-complete {
+  background-color: var(--nav-footer-color);
 }
 
 .me-auto {
