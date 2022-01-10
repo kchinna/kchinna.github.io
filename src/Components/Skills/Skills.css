@@ -3,7 +3,7 @@ html {
   --bg-color: #282c34;
 }
 
-.skills-page {
+#skills {
   background-color: var(--bg-color);
   padding-top: 75px;
   padding-bottom: 75px;

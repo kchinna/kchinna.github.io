@@ -4,7 +4,7 @@ import "./TextEditorCard.css";
 export default class TextEditorCard extends Component {
   render() {
     return (
-      <div class="title-card-container">
+      <div class="title-card-container" id="home">
         <div class="window">
           <div class="screen">
             <div class="top-bar">
@@ -13,7 +13,7 @@ export default class TextEditorCard extends Component {
 
             <div class="main-title">
               <h1 class="title">{this.props.title}</h1>
-              <h2 class="subtitle">{this.props.subtitle}</h2>
+              <p class="subtitle">{this.props.subtitle}</p>
             </div>
           </div>
         </div>

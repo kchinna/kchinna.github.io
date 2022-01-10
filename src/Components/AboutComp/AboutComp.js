@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default class AboutComp extends Component {
   render() {
     return (
-      <div id="about-me-page">
+      <div id="about-me">
         <h2># about me</h2>
         <div class="about-page-content">
           <Container className="about-grid">

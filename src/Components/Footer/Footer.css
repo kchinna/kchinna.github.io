@@ -5,7 +5,7 @@ html {
   --nav-footer-color: rgb(38, 37, 37);
 }
 
-.footer-page {
+#contact {
   height: 50vh;
   background-color: var(--nav-footer-color);
   display: flex;

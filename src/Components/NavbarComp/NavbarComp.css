@@ -6,6 +6,7 @@ html {
 
 .navbar-complete {
   background-color: var(--nav-footer-color);
+  height: 70px;
 }
 
 .me-auto {

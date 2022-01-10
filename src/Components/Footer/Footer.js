@@ -11,7 +11,7 @@ import "./Footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer-page">
+      <div id="contact">
         <div>
           <a href="https://github.com/kchinna" target="_blank" rel="noreferrer">
             <FaGithub className="icons" id="github-icon" />
@@ -40,7 +40,7 @@ export default class Footer extends Component {
             </div>
           </a>
           <a
-            href="src/Images/kchinnap-resume.pdf"
+            href="https://drive.google.com/file/d/1BfxaQMMcFdEG1VXCU2InqS8xuBWxu7I2/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

@@ -7,23 +7,24 @@ import ProjectsGrid from "./Components/Projects/ProjectsGrid";
 import Footer from "./Components/Footer/Footer";
 import Skills from "./Components/Skills/Skills";
 import Experiences from "./Components/Experiences/Experiences";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
-
-      <div class="title-page" id="home">
+      <BrowserRouter>
+        <NavbarComp />
         <TextEditorCard
           title="[ Kanishk Chinna ]"
           subtitle="Aspiring Software Engineer"
+          id="home"
         />
-      </div>
-      <AboutComp />
-      <ProjectsGrid />
-      <Skills />
-      <Experiences />
-      <Footer />
+        <AboutComp id="about-me" />
+        <ProjectsGrid />
+        <Skills />
+        <Experiences />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

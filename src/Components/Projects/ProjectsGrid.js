@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 export default class ProjectsGrid extends Component {
   render() {
     return (
-      <div class="project-page">
+      <div id="projects">
         <h2># projects</h2>
         <Container>
           <Row>
