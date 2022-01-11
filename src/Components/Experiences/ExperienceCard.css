@@ -8,14 +8,17 @@ html {
 }
 
 .card-window {
-  /* margin: auto; */
-  /* overflow: visible; */
   background-color: var(--bg-color);
   border-radius: 8px;
-  /* display: flex;
-  justify-content: left; */
   margin-bottom: 20px;
   color: var(--font-color);
+  height: 500px;
+}
+
+@media (max-width: 996px) {
+  .card-window {
+    height: 400px;
+  }
 }
 
 .card-screen {
@@ -82,4 +85,9 @@ html {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 15px;
+}
+
+.summary {
+  padding-left: 25px;
+  padding-right: 25px;
 }

@@ -14,6 +14,9 @@ html {
   border-radius: 8px;
   display: flex;
   margin-bottom: 20px;
+  height: 460px;
+
+  position: relative;
 }
 
 .card-screen {
@@ -73,8 +76,6 @@ html {
 .summary {
   font-size: 15px;
   margin: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
   padding-bottom: 20px;
   color: var(--font-color);
 }
@@ -83,4 +84,13 @@ html {
   padding: 0px;
   margin: 0px;
   padding-bottom: 5px;
+  position: absolute;
+  bottom: 90px;
+  width: 100%;
+}
+
+.github-btn {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }

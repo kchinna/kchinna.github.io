@@ -18,11 +18,14 @@ export default class ProjectCard extends Component {
             <img src={this.props.img3} alt="" />
             <img src={this.props.img4} alt="" />
           </p>
-          <CustomBtn
-            text="Learn More"
-            icon={this.props.icon}
-            url={this.props.url}
-          />
+          <div className="github-btn">
+            <CustomBtn
+              text="Learn More"
+              icon={this.props.icon}
+              url={this.props.url}
+              className="github-btn"
+            />
+          </div>
         </div>
       </div>
     );
