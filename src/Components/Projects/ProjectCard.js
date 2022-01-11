@@ -13,10 +13,10 @@ export default class ProjectCard extends Component {
           <h3 className="proj-title">{this.props.title}</h3>
           <p className="summary">{this.props.summary}</p>
           <p className="tech-used">
-            <img src={this.props.img} />
-            <img src={this.props.img2} />
-            <img src={this.props.img3} />
-            <img src={this.props.img4} />
+            <img src={this.props.img} alt="icons for the technologies used" />
+            <img src={this.props.img2} alt="" />
+            <img src={this.props.img3} alt="" />
+            <img src={this.props.img4} alt="" />
           </p>
           <CustomBtn
             text="Learn More"

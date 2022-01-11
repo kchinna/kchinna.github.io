@@ -5,8 +5,8 @@ html {
 
 #skills {
   background-color: var(--bg-color);
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .skills-cont {

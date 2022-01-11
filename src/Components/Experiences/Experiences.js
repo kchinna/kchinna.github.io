@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Experiences.css";
 import ExperienceCard from "./ExperienceCard";
+import Spacer from "../Spacer/Spacer";
 
 export default class Experiences extends Component {
   render() {
     return (
       <div id="experiences">
+        <Spacer />
         <h2># experiences</h2>
         <Container>
           <Row>
@@ -41,6 +43,7 @@ export default class Experiences extends Component {
             </Col>
           </Row>
         </Container>
+        <Spacer />
       </div>
     );
   }

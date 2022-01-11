@@ -16,7 +16,7 @@ function App() {
         <NavbarComp />
         <TextEditorCard
           title="[ Kanishk Chinna ]"
-          subtitle="Aspiring Software Engineer"
+          subtitle="aspiring software engineer"
           id="home"
         />
         <AboutComp id="about-me" />

@@ -14,8 +14,8 @@ export default class NavbarComp extends Component {
           className="navbar-complete"
         >
           <Container>
-            <HashLink to="/">
-              <Navbar.Brand href="#home">
+            <HashLink smooth to="/#home">
+              <Navbar.Brand>
                 <span className="nav-item">Kanishk Chinna</span>
               </Navbar.Brand>
             </HashLink>
@@ -23,21 +23,21 @@ export default class NavbarComp extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 {/* <HashLink to="#about-me">About</HashLink> */}
-                <HashLink to="/#about-me">
-                  <span className="nav-item">About</span>
+                <HashLink smooth to="/#about-me">
+                  <span className="nav-item">about</span>
                 </HashLink>
-                <Nav.Link href="#projects">
-                  <span className="nav-item">Projects</span>
-                </Nav.Link>
-                <Nav.Link href="#skills">
-                  <span className="nav-item">Skills</span>
-                </Nav.Link>
-                <Nav.Link href="#experiences">
-                  <span className="nav-item">Experiences</span>
-                </Nav.Link>
-                <Nav.Link href="#contact">
-                  <span className="nav-item">Contact</span>
-                </Nav.Link>
+                <HashLink smooth to="/#projects">
+                  <span className="nav-item">projects</span>
+                </HashLink>
+                <HashLink smooth to="/#skills">
+                  <span className="nav-item">skills</span>
+                </HashLink>
+                <HashLink smooth to="/#experiences">
+                  <span className="nav-item">experiences</span>
+                </HashLink>
+                <HashLink smooth to="/#contact">
+                  <span className="nav-item">contact</span>
+                </HashLink>
               </Nav>
             </Navbar.Collapse>
           </Container>

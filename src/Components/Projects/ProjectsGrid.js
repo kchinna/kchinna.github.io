@@ -3,11 +3,13 @@ import "./ProjectsGrid.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
+import Spacer from "../Spacer/Spacer";
 
 export default class ProjectsGrid extends Component {
   render() {
     return (
       <div id="projects">
+        <Spacer />
         <h2># projects</h2>
         <Container>
           <Row>
@@ -58,6 +60,7 @@ export default class ProjectsGrid extends Component {
             </Col>
           </Row>
         </Container>
+        <Spacer />
       </div>
     );
   }

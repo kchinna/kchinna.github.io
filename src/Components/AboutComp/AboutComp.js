@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import "./AboutComp.css";
 import Portrait from "../../Images/portrait.png";
 import { Container, Row, Col } from "react-bootstrap";
+import Spacer from "../Spacer/Spacer";
 
 export default class AboutComp extends Component {
   render() {
     return (
       <div id="about-me">
+        <Spacer />
         <h2># about me</h2>
         <div class="about-page-content">
           <Container className="about-grid">
@@ -57,6 +59,7 @@ export default class AboutComp extends Component {
             </Row>
           </Container>
         </div>
+        <Spacer />
       </div>
     );
   }

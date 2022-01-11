@@ -6,7 +6,12 @@ html {
 
 .navbar-complete {
   background-color: var(--nav-footer-color);
-  height: 70px;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-complete {
+    height: 75px;
+  }
 }
 
 .me-auto {
@@ -17,6 +22,7 @@ html {
 
 .nav-item {
   color: var(--font-color);
+  margin-right: 20px;
 }
 
 .nav-item:hover {
