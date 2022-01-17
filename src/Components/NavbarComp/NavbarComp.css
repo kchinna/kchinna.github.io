@@ -28,3 +28,28 @@ html {
 .nav-item:hover {
   color: var(--hov-color);
 }
+
+@media (max-width: 992px) {
+  .nav-item {
+    font-size: larger;
+  }
+
+  .navbar-link {
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #nav-container {
+    margin-left: 7.5vw;
+  }
+}
+
+#nav-container {
+  font-size: larger;
+}
+
+#nav-title {
+  font-weight: bold;
+}

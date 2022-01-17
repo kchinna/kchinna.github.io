@@ -15,7 +15,7 @@ html {
   height: 500px;
 }
 
-@media (max-width: 996px) {
+@media (max-width: 991px) {
   .card-window {
     height: 400px;
   }

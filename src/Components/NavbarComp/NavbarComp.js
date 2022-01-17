@@ -13,29 +13,31 @@ export default class NavbarComp extends Component {
           variant="dark"
           className="navbar-complete"
         >
-          <Container>
+          <Container id="nav-container">
             <HashLink smooth to="/#home">
               <Navbar.Brand>
-                <span className="nav-item">Kanishk Chinna</span>
+                <span className="nav-item" id="nav-title">
+                  Kanishk Chinna
+                </span>
               </Navbar.Brand>
             </HashLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 {/* <HashLink to="#about-me">About</HashLink> */}
-                <HashLink smooth to="/#about-me">
+                <HashLink smooth to="/#about-me" className="navbar-link">
                   <span className="nav-item">about</span>
                 </HashLink>
-                <HashLink smooth to="/#projects">
+                <HashLink smooth to="/#projects" className="navbar-link">
                   <span className="nav-item">projects</span>
                 </HashLink>
-                <HashLink smooth to="/#skills">
+                <HashLink smooth to="/#skills" className="navbar-link">
                   <span className="nav-item">skills</span>
                 </HashLink>
-                <HashLink smooth to="/#experiences">
+                <HashLink smooth to="/#experiences" className="navbar-link">
                   <span className="nav-item">experiences</span>
                 </HashLink>
-                <HashLink smooth to="/#contact">
+                <HashLink smooth to="/#contact" className="navbar-link">
                   <span className="nav-item">contact</span>
                 </HashLink>
               </Nav>
