@@ -16,7 +16,20 @@ export default class TextEditorCard extends Component {
 
             <div class="main-title">
               <h1 class="title">{this.props.title}</h1>
-              <p class="subtitle">aspiring software engineer</p>
+              <p class="subtitle">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+
+                      .typeString(this.props.subtitle)
+
+                      .pauseFor(900)
+                      .deleteAll()
+                      .typeString(this.props.subtitle2)
+                      .start();
+                  }}
+                />
+              </p>
             </div>
           </div>
         </div>
