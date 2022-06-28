@@ -14,6 +14,15 @@ export default class Experiences extends Component {
           <Row>
             <Col lg={4} md={12}>
               <ExperienceCard
+                title="Maryland Masti"
+                duration="October 2021 - Present"
+                summary1="❖ Developing mobile app for annual Raas dance competition to allow for mass communication with participants"
+                summary2="❖ Working cohesively with chair members for registration, organization, etc to create experience for participants"
+                summary3="❖ Learning to combine back end and front end technologies to creat full stack application"
+              />
+            </Col>
+            <Col lg={4} md={12}>
+              <ExperienceCard
                 title="Safeway"
                 duration="July 2021 - August 2021"
                 summary1="❖ Worked in professional collaborative environment alongside diverse group of 30+ employees"

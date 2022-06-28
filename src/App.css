@@ -6,8 +6,8 @@ html {
 .App {
   text-align: center;
   color: white;
-  background-color: #838996;
-  background: linear-gradient(to bottom right, #294c60, #a491d3);
+  background-color: #1b1b1e;
+  /* background: linear-gradient(to bottom right, #294c60, #a491d3); */
 }
 
 .App-header {

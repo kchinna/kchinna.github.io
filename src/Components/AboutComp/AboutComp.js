@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./AboutComp.css";
-import Portrait from "../../Images/portrait.png";
+import Portrait from "../../Images/pfp.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Spacer from "../Spacer/Spacer";
 

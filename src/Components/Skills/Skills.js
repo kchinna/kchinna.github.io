@@ -15,10 +15,12 @@ export default class Skills extends Component {
               <p>Java</p>
               <p>Python</p>
               <p>Javascript</p>
-              <p>HTML 5</p>
+              <p>C</p>
+              <p>MIPS Assembly</p>
             </Col>
             <Col xs={12} sm={4} className="col">
               <p>CSS 3</p>
+              <p>HTML 5</p>
               <p>ReactJS</p>
               <p>REST API</p>
               <p>Arduino C</p>
@@ -28,6 +30,7 @@ export default class Skills extends Component {
               <p>Visual Studio Code</p>
               <p>PyCharm</p>
               <p>Github</p>
+              <p>Emacs</p>
             </Col>
           </Row>
         </Container>
