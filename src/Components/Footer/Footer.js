@@ -40,7 +40,7 @@ export default class Footer extends Component {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1BfxaQMMcFdEG1VXCU2InqS8xuBWxu7I2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qUguWM_XUgnoa_IESGlM9qBjtBzsPccs/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
