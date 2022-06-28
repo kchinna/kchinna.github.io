@@ -2,24 +2,29 @@
 
 This website showcases some of the things I've worked on and provides a brief insight into who I am. [Take a look over here](https://kchinna.github.io/).
 The design is inspired by the way small windows appear on MacOS, featuring the close, minimize, and fullscreen buttons at the top left of the window.<br/>
-I developed this website as I learned React, using it as a hands on learning experience while also updating my previous portfolio website that did not employ React.<br/> 
-<br/> 
+I developed this website as I learned React, using it as a hands on learning experience while also updating my previous portfolio website that did not employ React.<br/>
+<br/>
 
-The website consists of several sections, each of which provide a unique insight and can be accessed via the responsive navbar at the top.<br/> 
+<p align="center">
+<img src="./src/Images/website_preview.png" style ="height: 350px"/>
+</p>
+<br/>
+
+The website consists of several sections, each of which provide a unique insight and can be accessed via the responsive navbar at the top.<br/>
 I used React-Bootstrap Grid extensively throughout the website in order to create a responsive experience that is easy to use across all devices.<br/>
-<br/> 
+<br/>
 
-The "About Me" section provides a summary of who I am, describing some of my hobbies and how I got interested in programming.<br/> 
+The "About Me" section provides a summary of who I am, describing some of my hobbies and how I got interested in programming.<br/>
 I've also included a "Projects" section that showcases some of the fascinating personal projects I've done, providing a brief summary of what they do and the technologies I learned while developing them.
-They also include links to their respective GitHub repositories in case you're interested.<br/> 
-In the "Skills" section, you can take a look at a comprehensive list of technical skills that I have learned and applied.<br/> 
-The "Experiences" section displays my professional work experiences, each of which have taught me important skills and lessons that have helped me better myself.<br/> 
-Lastly, the "Contact" section at the footer of the site provides several ways that you can reach out to me and also provides a link to my resume.<br/> 
-<br/> 
-<br/> 
-<br/> 
-<br/> 
-<br/> 
+They also include links to their respective GitHub repositories in case you're interested.<br/>
+In the "Skills" section, you can take a look at a comprehensive list of technical skills that I have learned and applied.<br/>
+The "Experiences" section displays my professional work experiences, each of which have taught me important skills and lessons that have helped me better myself.<br/>
+Lastly, the "Contact" section at the footer of the site provides several ways that you can reach out to me and also provides a link to my resume.<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 # Getting Started with Create React App
 
