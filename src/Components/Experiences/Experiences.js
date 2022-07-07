@@ -11,7 +11,7 @@ export default class Experiences extends Component {
         <Spacer />
         <h2># experiences</h2>
         <Container>
-          <Row>
+          <Row style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
             <Col lg={4} md={12}>
               <ExperienceCard
                 title="Maryland Masti"
