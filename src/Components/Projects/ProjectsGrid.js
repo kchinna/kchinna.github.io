@@ -12,7 +12,7 @@ export default class ProjectsGrid extends Component {
         <Spacer />
         <h2># projects</h2>
         <Container>
-          <Row>
+          <Row style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <Col lg={4} md={6} sm={12}>
               <ProjectCard
                 title=".csv to DynamoDB"
