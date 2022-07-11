@@ -3,6 +3,7 @@ import "./AboutComp.css";
 import Portrait from "../../Images/pfp.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Spacer from "../Spacer/Spacer";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default class AboutComp extends Component {
   render() {
@@ -10,6 +11,23 @@ export default class AboutComp extends Component {
       <div id="about-me">
         <Spacer />
         <h2># about me</h2>
+        <a href="https://github.com/kchinna" target="_blank" rel="noreferrer">
+          <FaGithub className="icons" id="github-icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kanishk-chinna-04a6b41b0/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin className="icons" />
+        </a>
+        <a
+          href="https://www.instagram.com/kanishkc234/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaInstagram className="icons" />
+        </a>
         <div class="about-page-content">
           <Container className="about-grid">
             <Row>
