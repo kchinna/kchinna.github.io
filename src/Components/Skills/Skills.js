@@ -13,24 +13,33 @@ export default class Skills extends Component {
           <Row class="skills-row">
             <Col xs={12} sm={4} className="col">
               <p>Java</p>
-              <p>Python</p>
-              <p>Javascript</p>
               <p>C</p>
-              <p>MIPS Assembly</p>
+              <p>Javascript</p>
+              <p>Python</p>
+              <p>ExpressJS</p>
+              <p>Typescript</p>
+              <p>ReactJS</p>
+              <p>HTML</p>
             </Col>
             <Col xs={12} sm={4} className="col">
               <p>CSS 3</p>
-              <p>HTML 5</p>
-              <p>ReactJS</p>
-              <p>REST API</p>
-              <p>Arduino C</p>
+              <p>TailwindCSS</p>
+              <p>AWS S3</p>
+              <p>AWS DynamoDB</p>
+              <p>AWS Lambda</p>
+              <p>Firebase</p>
+              <p>REST APIs</p>
+              <p>Eclipse</p>
             </Col>
             <Col xs={12} sm={4} className="col">
-              <p>Eclipse</p>
-              <p>Visual Studio Code</p>
+            <p>Visual Studio Code</p>
               <p>PyCharm</p>
-              <p>Github</p>
+              <p>Github &amp; Gitlab</p>
+              <p>Git</p>
               <p>Emacs</p>
+              <p>JUnit</p>
+              <p>PHP</p>
+              <p>Laravel</p>
             </Col>
           </Row>
         </Container>

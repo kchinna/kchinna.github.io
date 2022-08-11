@@ -15,6 +15,19 @@ export default class ProjectsGrid extends Component {
           <Row>
             <Col lg={4} md={6} sm={12}>
               <ProjectCard
+                title="MM16 Organizer Site"
+                summary="A fullstack web application using React and Express that allows organizers of UMD's annual Raas dance competition to work with participant data stored in AWS DynamoDB. Also announcements and scheduling updates features for a planned participant mobile application."
+                icon={<FaGithub className="github-icon" />}
+                url={"https://github.com/kchinna/organizer-site"}
+                img={
+                  "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+                }
+                img2={"https://img.icons8.com/office/44/000000/react.png"}
+                img3={"https://img.icons8.com/fluency/48/000000/node-js.png"}
+              />
+            </Col>
+            <Col lg={4} md={6} sm={12}>
+              <ProjectCard
                 title=".csv to DynamoDB"
                 summary="Implements AWS S3, AWS Lambda, and AWS DynamoDB to transfer rows of data from the .csv file that is uploaded to the S3 bucket into DynamoDB. The Lambda function triggers upon upload of a new .csv file and only adds new data so as to avoid duplicates."
                 icon={<FaGithub className="github-icon" />}
