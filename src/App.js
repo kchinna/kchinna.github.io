@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <NavbarComp />
         <TextEditorCard
-          title="[ Kanishk Chinna ]"
+          title="[ kanishk chinna ]"
           subtitle="computer science student"
           subtitle2="aspiring software engineer"
           id="home"
