@@ -15,7 +15,7 @@ export default class Experiences extends Component {
             <Col lg={4} md={12}>
               <ExperienceCard
                 title="Benfornia"
-                duration="June 2022 - Present"
+                duration="June 2022 - October 2022"
                 summary1="❖ Worked in an Agile SCRUM environment while developing a real-estate transaction management service"
                 summary2="❖ Developed a role-based front end interface to document ongoing transactions using React, Typescript, and TailwindCSS."
                 summary3="❖ Created a multi-stage dynamic form that displays fields based on input selections, user role, and stages of completion"
