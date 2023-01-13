@@ -17,7 +17,7 @@ export default class NavbarComp extends Component {
             <HashLink smooth to="/#home">
               <Navbar.Brand>
                 <span className="nav-item" id="nav-title">
-                  Kanishk Chinna
+                  kanishk chinna
                 </span>
               </Navbar.Brand>
             </HashLink>
