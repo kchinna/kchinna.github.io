@@ -15,15 +15,26 @@ export default class ProjectsGrid extends Component {
           <Row>
             <Col lg={4} md={6} sm={12}>
               <ProjectCard
-                title="MM16 Organizer Site"
-                summary="A fullstack web application using React and Express that allows organizers of UMD's annual Raas dance competition to work with participant data stored in AWS DynamoDB. Also announcements and scheduling updates features for a planned participant mobile application."
+                title="AWS DynamoDB REST APIs"
+                summary="A set of REST APIs that handle CRUD functionality for AWS DynamoDB and handle complex queries of data from the database based on upload time, team name, and other data points."
                 icon={<FaGithub className="github-icon" />}
-                url={"https://github.com/kchinna/organizer-site"}
+                url={"https://github.com/kchinna/masti_dynamodb_apis"}
                 img={
                   "https://img.icons8.com/color/48/000000/amazon-web-services.png"
                 }
-                img2={"https://img.icons8.com/office/44/000000/react.png"}
-                img3={"https://img.icons8.com/fluency/48/000000/node-js.png"}
+                img2={"https://img.icons8.com/fluency/48/000000/node-js.png"}
+              />
+            </Col>
+            <Col lg={4} md={6} sm={12}>
+              <ProjectCard
+                title="MM16 Mobile App"
+                summary="A mobile application developed using React Native that allows participants of UMD's annual Raas dance competition to stay updated on the event. Uses APIs from another project to work with participant data."
+                icon={<FaGithub className="github-icon" />}
+                url={"https://github.com/kchinna/masti_dynamodb_apis"}
+                img={
+                  "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+                }
+                img2={"https://img.icons8.com/fluency/48/000000/node-js.png"}
               />
             </Col>
             <Col lg={4} md={6} sm={12}>
