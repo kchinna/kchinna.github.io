@@ -30,11 +30,13 @@ export default class ProjectsGrid extends Component {
                 title="MM16 Mobile App"
                 summary="A mobile application developed using React Native that allows participants of UMD's annual Raas dance competition to stay updated on the event. Uses APIs from another project to work with participant data."
                 icon={<FaGithub className="github-icon" />}
-                url={"https://github.com/kchinna/masti_dynamodb_apis"}
-                img={
-                  "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+                url={"https://github.com/kchinna/masti_mobile_app"}
+                img={"https://img.icons8.com/color/48/000000/html-5--v1.png"}
+                img2={"https://img.icons8.com/color/48/000000/css3.png"}
+                img3={
+                  "https://img.icons8.com/color/48/000000/javascript--v1.png"
                 }
-                img2={"https://img.icons8.com/fluency/48/000000/node-js.png"}
+                img4={"https://img.icons8.com/ios-filled/50/000000/jquery.png"}
               />
             </Col>
             <Col lg={4} md={6} sm={12}>
